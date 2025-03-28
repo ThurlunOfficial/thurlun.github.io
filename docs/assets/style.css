@@ -45,3 +45,23 @@ a {
 a:hover {
   text-decoration: underline;
 }
+/* Cabeçalho com imagem de fundo e bordas arredondadas */
+header {
+  background-image: url('path-to-your-image.jpg'); /* Insira o caminho da imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
