@@ -47,8 +47,8 @@ a:hover {
 }
 /* Cabeçalho com imagem de fundo e bordas arredondadas */
 header {
-  background-image: url(background-image: url('https://raw.githubusercontent.com/ThurlunOfficial/thurlun.github.io/thurlun.github.io
-/main/imagens/minha-imagem.jpg'); /* Insira o caminho da imagem de fundo */
+  background-image: url(background-image: url(https://raw.githubusercontent.com/ThurlunOfficial/thurlun.github.io/thurlun.github.io
+/main/imagens/minha-imagem.jpg); /* Insira o caminho da imagem de fundo */
   background-size: cover;
   background-position: center;
   color: white;
