@@ -85,3 +85,21 @@ footer {
 footer p {
   font-size: 1rem;
 }
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  section h2 {
+    font-size: 1.2em;
+  }
+
+  section p {
+    font-size: 1em;
+  }
+
+  footer {
+    font-size: 0.8em;
+  }
+}
