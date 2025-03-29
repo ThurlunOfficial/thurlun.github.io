@@ -124,3 +124,25 @@ footer p {
   margin: 10px 0;
   font-weight: bold;
 }
+#contador-regressivo {
+  background-color: #e3e3e3;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#contador-regressivo h2 {
+  color: #d4af37; /* Dourado */
+}
+
+#contador-regressivo p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+#contador-regressivo span {
+  font-size: 30px;
+  color: #d4af37;
+}
