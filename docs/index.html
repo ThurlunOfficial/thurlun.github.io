@@ -102,6 +102,38 @@
   }
 
   setInterval(updateCountdown, 1000);
+    <script>
+  // Defina a data de lançamento
+  var dataLancamento = new Date("April 30, 2025 00:00:00").getTime();
+
+  // Atualize o contador a cada 1 segundo
+  var x = setInterval(function() {
+
+    // Pegue a data e hora atual
+    var agora = new Date().getTime();
+
+    // Calcule a diferença entre a data de lançamento e a data atual
+    var distancia = dataLancamento - agora;
+
+    // Calcule os dias, horas, minutos e segundos restantes
+    var dias = Math.floor(distancia / (1000 * 60 * 60 * 24));
+    var horas = Math.floor((distancia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
+    var segundos = Math.floor((distancia % (1000 * 60)) / 1000);
+
+    // Exiba os resultados no HTML
+    document.getElementById("dias").innerHTML = dias;
+    document.getElementById("horas").innerHTML = horas;
+    document.getElementById("minutos").innerHTML = minutos;
+    document.getElementById("segundos").innerHTML = segundos;
+
+    // Se o contador terminar
+    if (distancia < 0) {
+      clearInterval(x);
+      document.getElementById("contador-regressivo").innerHTML = "O lançamento chegou!";
+    }
+  }, 1000);
+</script>
 </script>
 </body>
 </html>
