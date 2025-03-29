@@ -103,3 +103,24 @@ footer p {
     font-size: 0.8em;
   }
 }
+#porque-investir {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#porque-investir h2 {
+  color: #d4af37; /* Dourado para destacar */
+}
+
+#porque-investir ul {
+  list-style: none;
+  padding: 0;
+}
+
+#porque-investir li {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: bold;
+}
